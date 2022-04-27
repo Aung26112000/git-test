@@ -1,0 +1,54 @@
+.key{
+    width: 70px;
+    height: 75px;
+    border-radius: 20px;
+   text-align: center;line-height: 70px;font-size: 20px;background-color: rgb(255, 243, 243);
+    color: rgb(5, 5, 5);cursor: pointer;user-select: none;box-shadow: 1px 2px #a4a1a1;
+}
+.key:active{
+    background-color: rgb(154, 63, 63);color: rgb(196, 210, 222);
+}
+*{
+    margin: 0;
+    padding: 0;font-weight: bold;
+}
+body{
+    background-color:rgb(218, 228, 227)}
+.calc{
+    text-align: center; background-color: white;
+    margin-left: 490px;
+    margin-top: 30px;
+    border: 2px solid rgb(251, 244, 244);
+    width: 340px;
+    height: 550px;
+    padding-left: 25px;
+    border-radius: 30px;margin-bottom: 30px;box-shadow: 1px 2px rgb(255, 255, 255),3px 4px rgb(60, 59, 59);
+}
+.display{
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+.pad{
+    padding: 4px;
+    background-color: rgb(240 235 235);border-radius: 20px;
+    color: white;
+}
+.zero{
+    width: 150px;
+}
+tr:first-child td .key{
+    background-color: rgb(57, 53, 53);color: rgb(240, 229, 229);
+}
+tr:first-child td .key:active{
+    background-color: rgba(11, 65, 132, 0.347);color: rgb(97, 76, 76);
+}
+tr td:last-child  .key{
+    background-color: rgb(159, 159, 72);color: rgb(10, 14, 18);
+}
+tr td:last-child  .key:active{
+    background-color: rgb(103, 103, 51);color: rgb(17, 24, 30);
+}
+
